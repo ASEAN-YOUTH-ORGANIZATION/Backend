@@ -9,10 +9,13 @@ POST http://localhost:3001/api/auth/register/
 Content-Type: application/json
 
 {
-    "username":"matthew",
-    "password":"matthew",
-    "confirm_password":"matthew",
-    "fullname":"Matthew",
+    "username":"christian",
+    "password":"christian",
+    "konfirmasi_password":"christian",
+    "nama_lengkap":"Christian",
+    "email":"christian@gmail.com",
+    "no_hp":"no_hp",
+    "jenis_kelamin":"pria",
     "role":1
 }
 
@@ -40,7 +43,7 @@ GET http://localhost:3001/api/pendaftar
 
 GET http://localhost:3001/api/pendaftar/2
 ###
-POST http://localhost:3001/api/pendaftar
+POST http://localhost:3001/
 Content-Type: application/json
 
 {
