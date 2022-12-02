@@ -9,14 +9,14 @@ POST http://localhost:3001/api/auth/register/
 Content-Type: application/json
 
 {
-    "username":"christian",
-    "password":"christian",
-    "konfirmasi_password":"christian",
-    "nama_lengkap":"Christian",
-    "email":"christian@gmail.com",
+    "username":"user12345",
+    "password":"user12345",
+    "konfirmasi_password":"user12345",
+    "nama_lengkap":"user12345",
+    "email":"user12345@gmail.com",
     "no_hp":"no_hp",
     "jenis_kelamin":"pria",
-    "role":1
+    "role":2
 }
 
 ###
@@ -43,17 +43,17 @@ GET http://localhost:3001/api/pendaftar
 
 GET http://localhost:3001/api/pendaftar/2
 ###
-POST http://localhost:3001/
+POST http://localhost:3001/api/relawan
 Content-Type: application/json
 
 {
-    "nama":"nama",    
-    "id_event":1,    
-    "nama_event":"nama event",    
-    "link_dokumen":"link dokumen",    
-    "no_hp":"no hp",
-    "email":"email@gmail.com",
-    "alasan":"alasan"
+    "id_user":"78467266-79e9-4030-bbd6-9d559ca702b7",    
+    "id_event":"720781d1-1eb5-4cf6-abec-4dc73a97af22",    
+    "link_id_card":"link_dokumen",    
+    "link_cv":"link_dokumen",    
+    "link_health_letter":"link_dokumen",    
+    "alasan":"alasan",
+    "status":"diproses"
 }
 
 ###
